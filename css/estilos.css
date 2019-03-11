@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* para el cover */
+#cover{
+    background:#222 url('../img/Backgraund01.jpeg')center center no-repeat;
+    background-size: cover;
+    color:whitesmoke;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#cover-texto{
+     width: 100%;
+     text-shadow:rgb(0, 0, 150) 3px 3px 5px; 
+}
+
+#cover-texto .form-inline{
+    padding: 5rem 0; 
+}
+
+.col-sm-3{
+    padding-top: 15px;  
+}
+
+
+.contenido-seccion{
+    padding: 5rem 0;
+}
+
+#Acerca-de{
+    background: url('../img/pesaenelRing.jpg')center center no-repeat;
+    background-size: cover;
+}
+
+.texto-Acerca-de{
+    background: rgba(0, 0, 0, 0.5);
+    color: greenyellow;
+    padding: 1.475rem;
+}
+
+
+#Noticias{
+    padding: .8rem 0;
+}
+
+.navflex-column, .nav-link{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    color:black;
+ }
+
+#footer{
+    font-size: .8rem;
+    background: url('../img/footer/footer02.png')center center no-repeat;
+    background-size: cover;
+    box-shadow: #222;
+     
+}
+
+.marqe{
+    border-radius: 50px;
+	color: #76FF03;
+	font-size: .9rem;
+	background: rgba(0, 0, 0, 0.3);
+    margin-top: 20px; 
+	padding: 15px;
+	box-shadow: rgb(150, 150, 150) 5px 5px 10px;
+    text-shadow: rgb(0, 0, 150) 3px 3px 5px;    
+}
